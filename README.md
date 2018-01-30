@@ -21,10 +21,10 @@ OK, let's explain how to pass this lab, and stick this bad boy on your refrigera
 Go ahead and select the JavaScript tab and you'll see some JavaScript code
 
 ```javascript
-//Enter querySelector Code here
-var header = "ENTER HEADER CODE HERE"
-var linkText = "ENTER LINK TEXT CODE HERE"
-var linkHref = "ENTER LINK HREF CODE HERE"
+//Enter querySelector Code 
+var header = document.querySelector("#header").innerHTML;
+var linkText = document.querySelector("a").text;
+var linkHref = document.querySelector("a[href]");
 
 
 // NO NEED TO MODIFY BELOW HERE
